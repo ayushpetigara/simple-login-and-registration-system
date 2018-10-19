@@ -2,9 +2,7 @@
 include 'server.php';
 //UPDATE PASSWORD
     
-    // connect to the database
-    //$db = mysqli_connect('localhost', 'id6068513_admin', 'apsr312', 'id6068513_registration');   
-    
+     
     $email = $_GET['email'];
     $token = $_GET['token'];
     
